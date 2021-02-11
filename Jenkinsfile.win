@@ -34,7 +34,7 @@ pipeline {
         }
         stage('Review') {
             steps {
-		bat "${env.ISCCR_HOME}/CodeReview.cmd -Dcode.review.directory=c:/SoftwareAG103/IntegrationServer/instances/default/packages -Dcode.review.pkgname=CEFAkamaiUserInfo -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF"
+		bat "${env.ISCCR_HOME}\CodeReview.cmd -Dcode.review.directory=C:\SoftwareAG103\IntegrationServer\instances\default\packages -Dcode.review.pkgname=CEFAkamaiUserInfo -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF"
             }
         }
 		stage('Test') {
