@@ -34,7 +34,7 @@ pipeline {
         }
         stage('Review') {
             steps {
-		bat "${env.ISCCR_HOME}/CodeReview.cmd -Dcode.review.directory=${env.SAG_HOME}/IntegrationServer/instances/default/packages -Dcode.review.pkgname=CEFAkamaiUserInfo -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF -Dcode.review.output.directory=C:\Logesh\Jenkins\.jenkins\workspace\FirstPipeline\report\"
+		bat "${env.ISCCR_HOME}/CodeReview.cmd -Dcode.review.directory=${env.SAG_HOME}/IntegrationServer/instances/default/packages -Dcode.review.pkgname=CEFAkamaiUserInfo -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF -Dcode.review.output.directory=C:/Logesh/Jenkins/.jenkins/workspace/FirstPipeline/report/"
             }
         }
 		stage('Test') {
