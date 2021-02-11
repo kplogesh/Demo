@@ -34,7 +34,7 @@ pipeline {
         }
         stage('Review') {
             steps {
-		bat "C:/Windows/System32/cmd.exe CodeReview.cmd -Dcode.review.directory=c:/SoftwareAG103/IntegrationServer/instances/default/packages -Dcode.review.pkgname=CEFAkamaiUserInfo -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF"
+		bat "C:/Logesh/CICD/GCS_IS_ContinuousCodeReview_v8.1.0 CodeReview.cmd -Dcode.review.directory=c:/SoftwareAG103/IntegrationServer/instances/default/packages -Dcode.review.pkgname=CEFAkamaiUserInfo -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF"
             }
         }
 		stage('Test') {
