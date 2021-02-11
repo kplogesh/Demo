@@ -10,4 +10,14 @@
             </expected>
         </service>
     </webMethodsTestCase>
+    <webMethodsTestCase name="some2">
+        <service folder="CEFAkamaiUserInfo.utils" name="some2">
+            <input>
+                <file filename="resources/data/something_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/something_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
 </webMethodsTestSuite>
