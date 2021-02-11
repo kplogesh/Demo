@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="sometests.xml">
+    <webMethodsTestCase name="sometestcase1">
+        <service folder="CEFAkamaiUserInfo.utils" name="something">
+            <input>
+                <file filename="resources/data/something_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/something_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
