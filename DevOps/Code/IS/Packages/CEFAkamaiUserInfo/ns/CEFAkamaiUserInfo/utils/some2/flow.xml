@@ -31,6 +31,7 @@
 </MAP>
 </SEQUENCE>
 
+<<<<<<< HEAD
 <SEQUENCE TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 </SEQUENCE>
@@ -42,4 +43,9 @@
 <SEQUENCE TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 </SEQUENCE>
+=======
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT>test comment</COMMENT>
+</MAP>
+>>>>>>> branch 'master' of https://github.com/kplogesh/Demo.git
 </FLOW>
