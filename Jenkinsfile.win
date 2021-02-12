@@ -39,7 +39,7 @@ pipeline {
 			publishHTML (target : [allowMissing: false,
 			 alwaysLinkToLastBuild: false,
 			 keepAll: true,
-			 reportDir: '/',
+			 reportDir: 'C:/Logesh/Jenkins/.jenkins/workspace/FirstPipeline/',
 			 reportFiles: 'CEFAkamaiUserInfo__CodeReviewReport__html-package.html',
 			 reportName: 'Code Review Reports',
 			 reportTitles: 'Code Review Report'])
