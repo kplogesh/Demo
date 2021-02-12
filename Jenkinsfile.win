@@ -37,7 +37,7 @@ pipeline {
 		bat "${env.ISCCR_HOME}/CodeReview.cmd -Dcode.review.directory=${env.SAG_HOME}/IntegrationServer/instances/default/packages -Dcode.review.pkgname=CEFAkamaiUserInfo -Dcode.review.pkgprefix=CEF -Dcode.review.folder-prefix=CEF -Dcode.review.output.directory=C:/Logesh/Jenkins/.jenkins/workspace/FirstPipeline/CodeReviewReport"
             
 			publishHTML (target : [allowMissing: false,
-			 alwaysLinkToLastBuild: true,
+			 alwaysLinkToLastBuild: false,
 			 keepAll: true,
 			 reportDir: '/',
 			 reportFiles: 'CEFAkamaiUserInfo__CodeReviewReport__html-package.html',
