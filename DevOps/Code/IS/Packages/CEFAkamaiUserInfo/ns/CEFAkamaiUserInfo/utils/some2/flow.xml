@@ -30,4 +30,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </SEQUENCE>
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT>test comment</COMMENT>
+</MAP>
 </FLOW>
